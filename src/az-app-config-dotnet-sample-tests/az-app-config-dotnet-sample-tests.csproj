@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\unleash-dotnet-sample\unleash-dotnet-sample.csproj" />
+      <ProjectReference Include="..\az-app-config-dotnet-sample\az-app-config-dotnet-sample.csproj" />
     </ItemGroup>
 
 </Project>

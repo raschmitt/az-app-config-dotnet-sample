@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unleash-dotnet-sample", "unleash-dotnet-sample/unleash-dotnet-sample.csproj", "{54BB7C86-0106-420E-8A17-19C01BD3BFD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "az-app-config-dotnet-sample", "az-app-config-dotnet-sample\az-app-config-dotnet-sample.csproj", "{54BB7C86-0106-420E-8A17-19C01BD3BFD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unleash-dotnet-sample-tests", "unleash-dotnet-sample-tests\unleash-dotnet-sample-tests.csproj", "{CEB80F57-F0DB-4F9C-8C1E-C85A56969D82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "az-app-config-dotnet-sample-tests", "az-app-config-dotnet-sample-tests\az-app-config-dotnet-sample-tests.csproj", "{CEB80F57-F0DB-4F9C-8C1E-C85A56969D82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
