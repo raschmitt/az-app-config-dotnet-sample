@@ -12,21 +12,17 @@ Sample .Net Core API, using [Unleash](https://github.com/Unleash/unleash) as a f
 
 ## Running locally
 
-1. After
+1. Create an App Configuration store, as described [here](https://portal.azure.com/).
+
+2. On the `docker-compose.yml` file replace `<APP_CONFIG_CONNECTION_STRING>` by your resource connection string.
 
 2. Then go into the `src` directory and run `docker-compose up`.
 
-2. Access [http://localhost:4242/](http://localhost:4242/) to create and manage feature flags.
-
-      Use the following credentials to login:
-
-      | Username | Password |
-      | :---: | :---: |
-      | admin | unleash4all |
+2. Access your App Configuration resource at the [Azure Portal](https://portal.azure.com/) to create and manage feature flags.
  
 3. Access [http://localhost:8080/swagger/](http://localhost:8080/swagger/) to query your feature flags using the .Net API.
   
-      Keep in mind that the feature flags are case sensitive.
+    Keep in mind that the feature flags are not case sensitive.
 
 ## Resources
 
