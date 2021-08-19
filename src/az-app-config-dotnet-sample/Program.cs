@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -16,9 +17,7 @@ namespace unleash_dotnet_sample
                 .ConfigureWebHostDefaults(webBuilder =>
                     webBuilder.ConfigureAppConfiguration(config =>
                     {
-                        var settings = config.Build();
-                        
-                        var connection = settings.GetConnectionString("AppConfig");
+                        var connection = Environment.GetEnvironmentVariable("APP_CONFIG");
                         
                         config.AddAzureAppConfiguration(options =>
                             options.Connect(connection).UseFeatureFlags());
