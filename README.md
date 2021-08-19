@@ -1,6 +1,6 @@
 # .Net - Azure App Config Sample
 
-[![Azure DevOps builds (stage)](https://img.shields.io/azure-devops/build/raschmitt/7618d927-8467-43e2-b5e9-1aeddc1fbfdc/42?label=Continuous%20Integration&stage=CI&style=flat-square)](https://dev.azure.com/raschmitt/raschmitt/_build?definitionId=42)
+[![Azure DevOps builds (stage)](https://img.shields.io/azure-devops/build/raschmitt/7618d927-8467-43e2-b5e9-1aeddc1fbfdc/44?label=Continuous%20Integration&stage=CI&style=flat-square)](https://dev.azure.com/raschmitt/raschmitt/_build?definitionId=44)
 [![Sonar Coverage](https://img.shields.io/sonar/coverage/raschmitt_az-app-config-dotnet-sample?label=Code%20coverage&server=https%3A%2F%2Fsonarcloud.io&style=flat-square)](https://sonarcloud.io/dashboard?id=raschmitt_az-app-config-dotnet-sample)
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fraschmitt%2Faz-app-config-dotnet-sample%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/raschmitt/az-app-config-dotnet-sample/main)
 
