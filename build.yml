@@ -2,7 +2,7 @@ trigger:
   - main
 
 variables:
-- group: unleash-dotnet-sample
+- group: app-config-dotnet-sample
 
 resources:
   repositories:
